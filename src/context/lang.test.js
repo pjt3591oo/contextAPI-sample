@@ -3,7 +3,7 @@ import LangProvider from './lang';
 import Title from '../components/title';
 import TitleChange from '../components/titleChange';
 
-test('initilize ', () => {
+test('initilize', () => {
   const wrapper = ({children}) => <LangProvider>{children}</LangProvider>;
   render(<Title />, {wrapper});
   expect(
@@ -11,7 +11,7 @@ test('initilize ', () => {
   ).toBe('언어 컨텍스트');
 })
 
-test('click Change button ', () => {
+test('click Change button', () => {
   const wrapper = ({children}) => <LangProvider>{children}</LangProvider>;
   render(
     <div>
