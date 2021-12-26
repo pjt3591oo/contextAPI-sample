@@ -1,11 +1,11 @@
 import { useContext } from 'react';
 import { langContext } from '../context/lang';
 
-const TitleChange = () => {
+const Title = () => {
   const lang = useContext(langContext);
   return  (
     <div>{lang.title}</div>
   )
 }
 
-export default TitleChange;
+export default Title;

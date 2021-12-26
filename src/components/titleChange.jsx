@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { langContext } from '../context/lang';
 
-const Title = () => {
+const TitleChagne = () => {
   const lang = useContext(langContext);
   return  (
     <div>
@@ -10,4 +10,4 @@ const Title = () => {
   )
 }
 
-export default Title;
+export default TitleChagne;
